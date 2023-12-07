@@ -11,9 +11,9 @@ To jest aplikacja napisana w Spring Boot. Zadaniem tego projektu jest tworzenie 
 - GET /generate/json/{size} - zwraca listę zgenerowanych jsonów z losowymi danymi o podanym rozmiarze
 
 ### DataProcessingController
--GET /data/csv/{size} - pobiera dane z 1 serwisu oraz zwraca dane w formacie CSV z kolumnami ‘type, _id, name, type, latitude, longitude’
--GET /data/customCsv/{size} - pobiera dane z 1 serwisu oraz zwraca dane w formacie CSV z podanymi kolumnami (kolumny podawać poprzez parameter ?columns=kolumna1,kolumna2,...). Np zapytanie na adres "http://localhost:8080/data/customCsv/5?columns=_id,name,fullName" zwróci dane w formacie CSV z kolumnami _id,name,fullName
--GET /calculate/{size} - pobiera dane z 1, wykonuje proste operacje matematyczne podane poprzez parameter operations (?operations=operacja1,operacja2,...) i zwraca wynik tych operacji wraz z operandami. Np zapytanie na adres "http://localhost:8080/calculate/100?operations=latitude*longitude,sqrt(distance)" zwróci dane w formacie CSV z kolumnami latitude;longitude;distance;latitude*longitude;sqrt(distance)
+- GET /data/csv/{size} - pobiera dane z 1 serwisu oraz zwraca dane w formacie CSV z kolumnami ‘type, _id, name, type, latitude, longitude’
+- GET /data/customCsv/{size} - pobiera dane z 1 serwisu oraz zwraca dane w formacie CSV z podanymi kolumnami (kolumny podawać poprzez parameter ?columns=kolumna1,kolumna2,...). Np zapytanie na adres "http://localhost:8080/data/customCsv/5?columns=_id,name,fullName" zwróci dane w formacie CSV z kolumnami _id,name,fullName
+- GET /calculate/{size} - pobiera dane z 1, wykonuje proste operacje matematyczne podane poprzez parameter operations (?operations=operacja1,operacja2,...) i zwraca wynik tych operacji wraz z operandami. Np zapytanie na adres "http://localhost:8080/calculate/100?operations=latitude*longitude,sqrt(distance)" zwróci dane w formacie CSV z kolumnami latitude;longitude;distance;latitude*longitude;sqrt(distance)
 ### Ważne
 dla wykorzystywania operatorów '+' oraz '^' zamiast pisania tych symboli w pasku adresu trzeba napisać '%2B' '%5E' odpowiednio, bo te znaki są zarezerwowane przez przeglądarkę i nie można ich używać
 
