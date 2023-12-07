@@ -17,4 +17,5 @@ To jest aplikacja napisana w Spring Boot. Zadaniem tego projektu jest tworzenie 
 #### Ważne
 Dla wykorzystywania operatorów '+' oraz '^' zamiast pisania tych symboli w pasku adresu trzeba napisać '%2B' '%5E' odpowiednio, bo te znaki są zarezerwowane przez przeglądarkę i nie można ich używać
 
-### GET /statistics - zwraca raport, która zawiera informacje takie jak użycie pamięci w czasie dla każdego z poprzednich serwisów oraz czas zapytań http pomiędzy serwisami 3->2->1. Raport na 1k,10k,100k wygenerowanych jsonow.
+### ReportController
+- GET /statistics - zwraca raport, która zawiera informacje takie jak użycie pamięci w czasie dla każdego z poprzednich serwisów oraz czas zapytań http pomiędzy serwisami 3->2->1. Raport na 1k,10k,100k wygenerowanych jsonow.
