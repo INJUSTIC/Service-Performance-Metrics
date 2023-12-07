@@ -19,3 +19,5 @@ Dla wykorzystywania operatorów '+' oraz '^' zamiast pisania tych symboli w pask
 
 ### ReportController
 - GET /statistics - zwraca raport, która zawiera informacje takie jak użycie pamięci w czasie dla każdego z poprzednich serwisów oraz czas zapytań http pomiędzy serwisami 3->2->1. Raport na 1k,10k,100k wygenerowanych jsonow.
+
+Trzeba poczekać kilka sekund aby dostać wynik zapytania
