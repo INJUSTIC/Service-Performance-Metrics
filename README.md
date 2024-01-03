@@ -31,4 +31,4 @@ Trzeba poczekać kilka sekund aby dostać wynik zapytania
 * Otworzyć projekt w IntelliJ
 * Uruchomić aplikację poprzez naciśnięcie na zielony trójkąt w górnym prawym rogu
 
-## Wszystkie zapytania mają zaczynać się z http://localhost:8080, bo aplikacja jest uruchomiana na porcie 8080
+### Wszystkie zapytania mają zaczynać się z http://localhost:8080, bo aplikacja jest uruchomiana na porcie 8080
