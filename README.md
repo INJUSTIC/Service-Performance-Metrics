@@ -19,6 +19,7 @@ Dla wykorzystywania operatorów '+' oraz '^' zamiast pisania tych symboli w pask
 
 ### ReportController
 - GET /statistics - zwraca raport, która zawiera informacje takie jak użycie pamięci w czasie dla każdego z poprzednich serwisów oraz czas zapytań http pomiędzy serwisami 3->2->1. Raport na 1k,10k,100k wygenerowanych jsonow.
+- Raport musiał też zawierać informację o użyciu procesora. Algorytm jest taki sasmy jak w przypadku montirowania użycia pamięci, ale za każdym razem zamiast sensownych danych zwracano było -1.0. Mogą Państwo zobaczyć ten algorytm (kod służący do monitorowania zasobów procesora jest zakomentowany) w pliku `PerformanceMonitoringServiceImpl.java` w folderzu `sofixit\src\main\java\com\partnou\sofixit\service`.
 
 Trzeba poczekać kilka sekund aby dostać wynik zapytania
 
